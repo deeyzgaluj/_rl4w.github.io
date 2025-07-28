@@ -1,0 +1,155 @@
+<section id="flag-section">
+    <h2>Çerkes Bayrağı</h2>
+    <img src="images/cerkes-bayragi.png" id="flag" alt="Çerkes Bayrağı">
+</section>
+#flag {
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portföy - _rl4w</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <h1>Hoşgeldiniz, ama dikkatli ol...</h1>
+            <p>Herkesin gördüğü gibi değil. Bu dijital dünyada, her hareketinizin gözetlendiğini unutmayın. Burada sadece görmeye cesaret edebilenler kalır.</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>Hakkımda</h2>
+        <p>Ben _rl4w. Gizli bir dünyada varım ve çoğu kişi beni yalnızca bir efsane olarak bilir. Gerçek kimliğimi bilenlerin, gizlilik içinde yaşadığına dair birçok söylenti var. Projelerim, yalnızca onlara cesaret edenlere ulaşır. Eğer buralarda kalmayı seçiyorsanız, izlediğiniz her adımı dikkatle seçmelisiniz.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projelerim</h2>
+        <ul>
+            <li><a href="#">Proje 1: Gerçeklerin Arka Planı</a></li>
+            <li><a href="#">Proje 2: Dijital Deneyler</a></li>
+            <li><a href="#">Proje 3: Karanlıkta Yükselen</a></li>
+        </ul>
+    </section>
+
+    <section id="flag-section">
+        <h2>Çerkes Bayrağı</h2>
+        <img src="images/cerkes-bayragi.png" id="flag" alt="Çerkes Bayrağı">
+    </section>
+
+    <footer>
+        <p>Benimle iletişime geçmek istiyorsanız, buradayım. Fakat, unutmayın: Gizli kalmak daha tehlikeli olabilir.</p>
+        <p><a href="mailto:staffvia69@example.com">staffvia69@example.com</a></p>
+    </footer>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1e1e1e;
+    color: #e6e6e6;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #ff4747;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #f1f1f1;
+}
+
+#about, #projects, #flag-section {
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+#about h2, #projects h2, #flag-section h2 {
+    font-size: 2rem;
+    color: #ff4747;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#projects li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+#projects a {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+#projects a::after {
+    content: ' →';
+    position: absolute;
+    right: -20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#projects a:hover::after {
+    opacity: 1;
+}
+
+#flag {
+    width: 250px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #ff4747;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    background-color: #333;
+    color: #ff4747;
+    padding: 1rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff4747;
+    text-decoration: underline;
+}
